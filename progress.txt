@@ -1,0 +1,58 @@
+
+Tepota: spravny rezistor, vyzkouset jiny teplomer
+
+sudo modprobe w1-gpio
+sudo modprobe w1-therm
+cd /sys/bus/w1/devices/
+ls
+======
+
+LED - zdroj, spinac
+
+-- Balicky
+python -mpip install matplotlib
+python3 -mpip install matplotlib
+
+apt update && apt install libatlas-base-dev python3-pip
+pip3 install numpy -i https://www.piwheels.hostedpi.com/simple
+$ python3 -c 'import numpy; print(numpy.zeros(5))'
+
+sudo apt-get install python3-picamera
+sudo apt-get install python3-pip
+
+--  matplotlib --
+ry this: install libffi6 and libffi-dev using apt:
+
+ sudo apt install libffi-dev libffi6
+Then rerun the pip install of cairocffi:
+
+pip3 install cairocffi
+You may also need to install cffi (but I don't think so):
+pip3 install cffi
+
+
+--GPIO--
+PWM (pulse-width modulation)
+Software PWM available on all pins
+Hardware PWM available on GPIO12, GPIO13, GPIO18, GPIO19
+SPI
+SPI0: MOSI (GPIO10); MISO (GPIO9); SCLK (GPIO11); CE0 (GPIO8), CE1 (GPIO7)
+SPI1: MOSI (GPIO20); MISO (GPIO19); SCLK (GPIO21); CE0 (GPIO18); CE1 (GPIO17); CE2 (GPIO16)
+I2C
+Data: (GPIO2); Clock (GPIO3)
+EEPROM Data: (GPIO0); EEPROM Clock (GPIO1)
+Serial
+TX (GPIO14); RX (GPIO15)
+
+
+===gir ===
+git init
+git add *.py
+git commit -m "first commit"
+git remote add origin https://github.com/tovarys37/RBpi.git
+git push -u origin master
+
+git status -s
+
+
+===/ git ==
