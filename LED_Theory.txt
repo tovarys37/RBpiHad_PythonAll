@@ -1,0 +1,13 @@
+
+
+3.3V - 2.0V = 1.3V
+5mA = 0.005A
+
+1.3V / 0.005A = 260 Ohms. 
+
+
+
+Povolene/idealni
+LED 1-20mA
+R 260/1KOhm (5V)
+RB dava max 3mA (nebo 10?)
